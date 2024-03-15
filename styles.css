@@ -1,0 +1,289 @@
+input[type="text"] {
+  padding: 20px 10px;
+  text-align: end; /* This is the Logical Property for text-align: right; and has very good browser support. */
+  font-size: 34px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid black;
+  background: hsl(202, 11%, 29%); /* background color */
+  color: hsl(255, 100%, 100%); /* text color */
+  padding-block-start: 2rem; /* Add white space above the output text */
+  padding-inline-end: 1.25rem; /* Add a little more padding to the right side of the text */
+}
+
+.calculator {
+  max-inline-size: 30rem; /* This is the Logical Property for max-width and has very good browser support */
+  border-radius: 10px; /* Round the edges */
+  overflow: hidden; /* don't let other elements go outside the calculator */
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15),
+    0px 2px 4px 0px rgba(0, 0, 0, 0.12); /* Give the calculator some depth off the page */
+  margin: 0px auto; /* center the calculator */
+  height: 450px;
+  margin-top: auto;
+}
+
+.b1 {
+  grid-area: but1;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+  color: red;
+}
+.b2 {
+  grid-area: but2;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+  color: red;
+}
+.b3 {
+  grid-area: but3;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+  color: red;
+}
+.b4 {
+  grid-area: but4;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+  color: red;
+}
+.b5 {
+  grid-area: but5;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+  color: red;
+}
+.b6 {
+  grid-area: but6;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+  color: red;
+}
+.b7 {
+  grid-area: but7;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+  color: red;
+}
+.b8 {
+  grid-area: but8;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+  color: red;
+}
+.b9 {
+  grid-area: but9;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+  color: red;
+}
+.bC {
+  grid-area: butc;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+
+  width: auto;
+}
+.bPush {
+  grid-area: butpush;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+
+  width: auto;
+}
+.badd {
+  grid-area: butadd;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+}
+.bminus {
+  grid-area: butminus;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+}
+.bmultiply {
+  grid-area: butmultiply;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+}
+.bsign {
+  grid-area: butsign;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+}
+.b0 {
+  grid-area: but0;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+  color: red;
+}
+.bdecimal {
+  grid-area: butdecimal;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+}
+.bdivide {
+  grid-area: butdivide;
+  border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  inline-size: 60px;
+  block-size: 60px;
+  border-radius: 40px;
+  margin: 0.25rem;
+}
+
+.calculator-buttons {
+  padding: 0.5rem; /* Add some whitespace around the keys */
+  display: grid;
+  grid-template-areas:
+    "butpush butpush butc butc "
+    "but7 but8 but9 butadd "
+    "but4 but5 but6 butminus "
+    "but1 but2 but3 butmultiply "
+    "butsign but0 butdecimal butdivide ";
+  grid-gap: 1px;
+  background: hsl(208, 24%, 74%);
+}
+
+button {
+  cursor: pointer;
+}
