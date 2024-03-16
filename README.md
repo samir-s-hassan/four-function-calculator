@@ -10,7 +10,7 @@ The following functionality is completed:
 - [X] User can do arithmetic with negative and positive numbers
 - [X] User can do arithmetic with decimal numbers
 
-## How to run app
+## How to run
 
 1. Double-click on the calculator.html, it should launch locally in your default browser
 2. Use the app!
